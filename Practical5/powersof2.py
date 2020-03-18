@@ -6,7 +6,7 @@ Created on Wed Mar 11 14:26:13 2020
 """
 
 #start with a number called x
-x = input()
+x = input('give a number')
 x = int(x)
 #create the vairable ans to save the answer of the question
 ans = "%d is " % x

@@ -54,8 +54,39 @@ median = world_new_cases.median()
 mean = world_new_cases.mean()
 print(median,"\n",mean)
 
+plt.plot(world_date, world_new_cases, 'ro')
+plt.plot(world_date, world_new_deaths, "go")
+plt.xticks(world_date.iloc[0:len(world_date):4],rotation=-90)
 
-plt.plot(world_date, world_new_cases, 'r+')
-plt.plot(world_date, world_new_deaths, "y+")
+
+#Question: How have new cases and total cases developed over time in Spain?
+rownew = []
+rowtotal = []
+for i in range(0,7996):
+    if covid_data.loc[i,"location"] == "Spain":
+        rownew.append(True)
+    else:
+        rownew.append(False)
+spain_new_cases = covid_data.loc[rownew,"new_cases"]
+
+for i in range(0,7996):
+    if covid_data.loc[i,"location"] == "Spain":
+        rowtotal.append(True)
+    else:
+        rowtotal.append(False)
+spain_total_cases = covid_data.loc[rowtotal,"total_cases"]
+
+for i in range(0,7996):
+    if covid_data.loc[i,"location"] == "Spain":
+        if covid_data.loc[i,"total_cases"] == 0:
+            print("not infected yet:", covid_data.loc[i,"date"])
+        else:
+            print("infected:", covid_data.loc[i,"date"])
+
+print(spain_new_cases,spain_total_cases)
+
+print(spain_new_cases.describe(),spain_total_cases.describe())
+plt.plot(world_date, spain_new_cases, 'b+')
+plt.plot(world_date, spain_total_cases, "y+")
 plt.xticks(world_date.iloc[0:len(world_date):4],rotation=-90)
 

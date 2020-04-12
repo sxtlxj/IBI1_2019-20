@@ -1,0 +1,143 @@
+Question: How have new cases and total cases developed over time in Spain?
+
+6720       0
+6721       0
+6722       0
+6723       0
+6724       0
+
+6807    8578
+6808    7871
+6809    8189
+6810    6549
+6811    6398
+Name: new_cases, Length: 92, dtype: int64 6720        0
+
+6721        0
+6722        0
+6723        0
+6724        0
+ 
+6807    56188
+6808    64059
+6809    72248
+6810    78797
+6811    85195
+
+Name: total_cases, Length: 92, dtype: int64
+count      92.000000
+mean      926.032609
+std      2132.229811
+min         0.000000
+25%         0.000000
+50%         0.000000
+75%       124.500000
+max      8578.000000
+
+Name: new_cases, dtype: float64 count       92.000000
+mean      6844.358696
+std      17922.747906
+min          0.000000
+25%          0.000000
+50%          2.000000
+75%        469.750000
+max      85195.000000
+Name: total_cases, dtype: float64
+
+not infected yet: 2019-12-31
+not infected yet: 2020-01-01
+not infected yet: 2020-01-02
+not infected yet: 2020-01-03
+not infected yet: 2020-01-04
+not infected yet: 2020-01-05
+not infected yet: 2020-01-06
+not infected yet: 2020-01-07
+not infected yet: 2020-01-08
+not infected yet: 2020-01-09
+not infected yet: 2020-01-10
+not infected yet: 2020-01-11
+not infected yet: 2020-01-12
+not infected yet: 2020-01-13
+not infected yet: 2020-01-14
+not infected yet: 2020-01-15
+not infected yet: 2020-01-16
+not infected yet: 2020-01-17
+not infected yet: 2020-01-18
+not infected yet: 2020-01-19
+not infected yet: 2020-01-20
+not infected yet: 2020-01-21
+not infected yet: 2020-01-22
+not infected yet: 2020-01-23
+not infected yet: 2020-01-24
+not infected yet: 2020-01-25
+not infected yet: 2020-01-26
+not infected yet: 2020-01-27
+not infected yet: 2020-01-28
+not infected yet: 2020-01-29
+not infected yet: 2020-01-30
+not infected yet: 2020-01-31
+infected: 2020-02-01
+infected: 2020-02-02
+infected: 2020-02-03
+infected: 2020-02-04
+infected: 2020-02-05
+infected: 2020-02-06
+infected: 2020-02-07
+infected: 2020-02-08
+infected: 2020-02-09
+infected: 2020-02-10
+infected: 2020-02-11
+infected: 2020-02-12
+infected: 2020-02-13
+infected: 2020-02-14
+infected: 2020-02-15
+infected: 2020-02-16
+infected: 2020-02-17
+infected: 2020-02-18
+infected: 2020-02-19
+infected: 2020-02-20
+infected: 2020-02-21
+infected: 2020-02-22
+infected: 2020-02-23
+infected: 2020-02-24
+infected: 2020-02-25
+infected: 2020-02-26
+infected: 2020-02-27
+infected: 2020-02-28
+infected: 2020-02-29
+infected: 2020-03-01
+infected: 2020-03-02
+infected: 2020-03-03
+infected: 2020-03-04
+infected: 2020-03-05
+infected: 2020-03-06
+infected: 2020-03-07
+infected: 2020-03-08
+infected: 2020-03-09
+infected: 2020-03-10
+infected: 2020-03-11
+infected: 2020-03-12
+infected: 2020-03-13
+infected: 2020-03-14
+infected: 2020-03-15
+infected: 2020-03-16
+infected: 2020-03-17
+infected: 2020-03-18
+infected: 2020-03-19
+infected: 2020-03-20
+infected: 2020-03-21
+infected: 2020-03-22
+infected: 2020-03-23
+infected: 2020-03-24
+infected: 2020-03-25
+infected: 2020-03-26
+infected: 2020-03-27
+infected: 2020-03-28
+infected: 2020-03-29
+infected: 2020-03-30
+infected: 2020-03-31
+
+
+Analysis:
+From the number we can find that the first infection case happened on 2020-02-01 in Spain. The rise of new cases rose quickly at first and reached its maxium 8578 on 2020-03-27. Then the new cases began to drop. The total cases was rising at a dramatic speed and rosed to 85195 on 2020-03-31, the last day of data. 
+As we can see, Spain was not the first place where the covid broke out. It retained safe for a half of month. The virus did not spread fast at the time it reached Spain, however, it grew rapidly when the number of total cases reached around a thousand. This showed that the spread of covid was like the "J" growth curve, which meaned it needed to reach a mount of number to spread quickly. Therefore, countries should pay attention to the breakout of virus at the first before it start to grow quickly. It is the most efficient time to prevent the virus.

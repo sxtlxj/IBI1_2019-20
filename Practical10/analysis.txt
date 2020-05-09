@@ -1,0 +1,8 @@
+In "Alignment.py", I calculated the hamming distance, similarity percentages and BLOSUM62 between three given sequences. Here are results.
+Comparing human SOD2 protein and mouse SOD2 protein, human SOD2 protein and random sequence,  mouse SOD2 protein and random sequence:
+hamming distance  23, 210, 209
+identity percentage 89.94%, 5.41%, 5.86%
+BLOSUM62 scores 1091, -250, -250
+ (sequence total length is 222)
+Searching online, I found that the full name of SOD is Superoxide dismutase. It is an important antioxidant enzyme in organisms. Since human and mouse are mamals, the fact that the similarity between human and mouse SOD2 protein is quite high is reasonable. I could guess that random organism might not be animal or it lives where the environment is hugely different from where human and mouse live.
+

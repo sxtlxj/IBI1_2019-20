@@ -35,14 +35,14 @@ def scores(a,b):
     for i in range(len(a)): 
         row = amino.index(a[i])
         column=amino.index(b[i])+1    
-        score+=data.iloc[row,column]                                                
-        if a[i] != b[i]:
+        score+=data.iloc[row,column]  #select scores in BLOSUM62                                               
+        if a[i] != b[i]: #count the hamming distance
             distance += 1
         else:
             identity+=1
                 
     distance = distance 
-    percent_a= identity/len(a)*100
+    percent_a= identity/len(a)*100 # the similarity in percentage
     return( "distance: "+str(distance),          
            "identity: "+str(percent_a)+"%",
            "scores: "+str(score))

@@ -7,12 +7,12 @@ Created on Wed Mar 18 16:09:33 2020
 
 import matplotlib.pyplot as plt
 
-DNA = input('give me a sequence of DNA: ') 
-counterA = 0
+DNA = input('give me a sequence of DNA: ')  #ask to input DNA
+counterA = 0 #set the initial counter as 0
 counterT = 0
 counterC = 0
 counterG = 0
-for i in range(len(DNA)):
+for i in range(len(DNA)): #count all nucleotides
     if DNA[i] == 'A':
         counterA = counterA + 1
     elif DNA[i] == 'T':
@@ -22,7 +22,7 @@ for i in range(len(DNA)):
     else:
         counterG = counterG + 1
 
-frequency = {'A': counterA, 'C': counterC, 'T': counterT, 'G': counterG}
+frequency = {'A': counterA, 'C': counterC, 'T': counterT, 'G': counterG} #create a dictionart to save counters
 print(frequency)        
         
             
@@ -32,7 +32,7 @@ sizes = [counterA, counterT, counterC, counterG]
 
 
 fig1, ax1 = plt.subplots()
-ax1.pie(sizes, labels=labels, autopct='%1.1f%%',
+ax1.pie(sizes, labels=labels, autopct='%1.1f%%', #show result in one decimal
         shadow=True, startangle=90)
 ax1.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle.
 plt.title('pie of the four DNA nucleotides')

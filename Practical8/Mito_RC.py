@@ -15,7 +15,7 @@ with open('Saccharomyces_cerevisiae.R64-1-1.cdna.all.fa', 'r') as xfile:
     for line in xfile:
         if line.startswith('>'):
             line = line.rstrip()                     
-            name = str(re.findall(r'gene:(.*)gene_biotype',line))
+            name = str(re.findall(r'gene:(.*)gene_biotype',line)) #select the basic data of genes that we want
             count = ''
             length = 0
             
@@ -28,12 +28,12 @@ with open('Saccharomyces_cerevisiae.R64-1-1.cdna.all.fa', 'r') as xfile:
             seq[name] = count
             length1[name]=length
     for key in seq.keys():
-        re = seq[key][::-1] 
-        complement={'A':'T','G':'C','C':'G','T':'A','\n':'\n'}
+        re = seq[key][::-1]  #reverse the sequence
+        complement={'A':'T','G':'C','C':'G','T':'A','\n':'\n'} #use this to make complementart sequence
         trantab = str.maketrans(complement)
         rc[key] = re.translate(trantab)
         
-        
+ #write results in the file user want       
 with open(filename, 'w') as l:
     
     

@@ -1,4 +1,8 @@
+Practical3
 I have a great difficulties in navigating the GitKraken.
 It took me long time to find buttons.
 It might be easier to write command than clicking the buttons.
 Question: I saw File View and Diff View were different, but when I edited, the differences disappeared. How could I merged the differences. I am confused and feel forlorn.
+
+Practical13
+I think this practical was either easy or hard. In honest, the level of this practical was quite suitable for me. It was not to easy to feel bored or to hard to feel disappointed. I enjoyed seeing the plot I made. I learned herd immunity by making a model by myself. I got a feeling of mixture of excitement and happiness.

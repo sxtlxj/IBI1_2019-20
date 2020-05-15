@@ -1,0 +1,2 @@
+First find whether the number is between 1 and 23： O(n)=N (N is length of input).
+Then use recursion to find all permutations and merge them to one number at last； O(n)=N is 

@@ -20,16 +20,16 @@ with open('Saccharomyces_cerevisiae.R64-1-1.cdna.all.fa', 'r') as xfile: #open t
             
             count += line.replace('\n','').strip() #make sequences in one line
             
-            length += len(count)
+            length += len(count) #count the length
             
-            seq[name] = count
-            length1[name]=length
+            seq[name] = count #save the sequence
+            length1[name]=length 
 #output the result as a new file 
 with open('mito_gene.fa','w') as l:
     _str=""
     for key in seq.keys():    
         
-        _str+=">"+ "%s %d"%(key,length1[key])+ "\n" + "%s"%(seq[key]) + "\n"
+        _str+=">"+ "%s %d"%(key,length1[key])+ "\n" + "%s"%(seq[key]) + "\n" #make the structure like what is in fa files
 
     l.writelines(_str)
     

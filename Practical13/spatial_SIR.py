@@ -12,13 +12,14 @@ population=np.zeros((100,100))
 outbreak=np.random.choice(range(100),2)
 population[outbreak[0],outbreak[1]]=1
 
-
+#time 0
 plt.figure(figsize=(6,4),dpi=150)
 plt.imshow(population,cmap='viridis',interpolation='nearest')
 
 beta=0.3
 gamma=0.05
 
+#time 10
 for j in range(10):   
 # find infected points
     infectedIndex = np.where(population==1)
@@ -44,6 +45,7 @@ for j in range(10):
 plt.figure(figsize=(6,4),dpi=150)
 plt.imshow(population,cmap='viridis',interpolation='nearest')
 
+#time 50
 for j in range(40):   
 # find infected points
     infectedIndex = np.where(population==1)
@@ -69,6 +71,7 @@ for j in range(40):
 plt.figure(figsize=(6,4),dpi=150)
 plt.imshow(population,cmap='viridis',interpolation='nearest')
 
+#time 100
 for j in range(50):   
 # find infected points
     infectedIndex = np.where(population==1)

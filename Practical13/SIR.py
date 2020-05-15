@@ -25,7 +25,7 @@ for i in range(1000):
     recovery=np.random.choice(range(2),I,p=[1-γ,γ])#0 as not recovered and 1 as recovered
     S1=S
     I1=I #save for the reason that S and I will change in the next step
-    for j in range(S1):
+    for j in range(S1): #based on the infection and recovery to change the number in each group
         if infection[j]==1:
             S=S-1
             I=I+1
@@ -36,7 +36,7 @@ for i in range(1000):
     SD.append(S)
     ID.append(I)
     RD.append(R)
-
+#show the result in graph
 plt.figure(figsize=(6,4),dpi=150)
 plt.plot(SD)
 plt.plot(ID)

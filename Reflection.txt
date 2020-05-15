@@ -4,5 +4,34 @@ It took me long time to find buttons.
 It might be easier to write command than clicking the buttons.
 Question: I saw File View and Diff View were different, but when I edited, the differences disappeared. How could I merged the differences. I am confused and feel forlorn.
 
+Practical5
+This was the first time I used Python. I found in some similarities in Python with VB which I learned in high school. 
+I spent a long on powesof2 task, but I felt a great of success when I completed it.
+I think we should be taught more about basic math function before this practical (Actually we were given that lesson one week after this practical).
+-----------------
+I revised this practical when I got formative feedback. I found that I used pseudocode seldomly.
+
+Practical6
+This practical was not very difficult. However, there were many parameters for plot. Maybe we should be given more instructions about that.
+
+Practical7
+Quite interesting in the way that learning Python while utilizing it in real world. I think it was a better way to learn by just operating by myself than having lectures.
+
+Practical8
+I searched a lot to complete this practical. I thought that I needed more instructions in guideline.
+
+Practical10
+I thought a given example of analysis could help me analyze better.
+
+Practical11
+Most difficult practical!
+I thought recursion was really difficult to understand. We should be given a more easier practical to practice recursion before hadding a so hard code.
+
 Practical13
 I think this practical was either easy or hard. In honest, the level of this practical was quite suitable for me. It was not to easy to feel bored or to hard to feel disappointed. I enjoyed seeing the plot I made. I learned herd immunity by making a model by myself. I got a feeling of mixture of excitement and happiness.
+
+Practical14
+Too much new knowledge! The example given in lectures was really helpful.
+
+General advice:
+Because some of us never used Python before,for some really difficult knowledge points (like recursion, class), I think it would better that we have more lecturers about them and lower the level of difficulty of some practicals.

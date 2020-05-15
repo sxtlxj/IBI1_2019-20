@@ -1,4 +1,0 @@
-I have a great difficulties in navigating the GitKraken.
-It took me long time to find buttons.
-It might be easier to write command than clicking the buttons.
-Question: I saw File View and Diff View were different, but when I edited, the differences disappeared. How could I merged the differences. I am confused and feel forlorn.
